@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
         if SNIMEK_NUM == 0:
             predictor = Predictor(transform.orig_squares, 
-                                   transform.NN_image_size, Type=0)
+                                   transform.NN_image_size, Type=1)
         else:
             predictor.images = transform.orig_squares
             predictor.masks = []
@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
         transform.compose_image(predictor.masks)        
 
-        OUT_visual = r"./output/vis"
+        OUT_visual = r"./output/visualization"
         OUT_mask = OUT_visual
 
         mask = Mask(Snimek.image, Snimek.get_filename())
