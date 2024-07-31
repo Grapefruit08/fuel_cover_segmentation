@@ -1,0 +1,19 @@
+# Ignore __pycache__ directories and .pyc files
+__pycache__/
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore environment-specific files
+env/
+venv/
+.env/
+.venv/
+
+# For Git ignore models 
+models/
