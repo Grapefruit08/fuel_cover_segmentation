@@ -5,7 +5,7 @@
 Clone the repository
 
 ```shell
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/Grapefruit08/fuel_cover_segmentation.gitgit clone https://github.com/yourusername/project-name.git
 ```
 
 Install all needed packages
